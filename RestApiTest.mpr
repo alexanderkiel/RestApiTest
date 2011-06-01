@@ -7,9 +7,7 @@
   <component name="MPSProject">
     <projectModules>
       <modulePath path="${project}/languages/Http/Http.mpl" />
-      <modulePath path="${project}/solutions/Http.sandbox/Http.sandbox.msd" />
       <modulePath path="${project}/languages/ApiTest/ApiTest.mpl" folder="" />
-      <modulePath path="${project}/languages/ApiTest/sandbox/sandbox.msd" />
     </projectModules>
     <genConfs />
   </component>
@@ -18,7 +16,7 @@
   </component>
   <component name="ProjectRootManager" version="2" />
   <component name="VcsDirectoryMappings">
-    <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$" vcs="Git" />
   </component>
 </project>
 
