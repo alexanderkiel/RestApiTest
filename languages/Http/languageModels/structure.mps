@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(Http.structure)">
+<model modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(net.alexanderkiel.rat.Http.structure)">
   <persistence version="4" />
   <refactoringHistory />
   <language namespace="0a56bcc8-b618-43e1-82b3-7b02708aaf9b(Http)" />
@@ -8,7 +8,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(Http.structure)" version="-1" />
+  <import index="1" modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(net.alexanderkiel.rat.Http.structure)" version="-1" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="736961497060733610">
     <property name="name:0" value="Method" />

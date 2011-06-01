@@ -2,11 +2,11 @@
 <model modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)">
   <persistence version="4" />
   <refactoringHistory />
-  <language namespace="4813a04b-7ddf-4519-acdf-a7976f554e8b(ApiTest)" />
+  <language namespace="4813a04b-7ddf-4519-acdf-a7976f554e8b(net.alexanderkiel.rat.JratDsl)" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" />
-  <languageAspect modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(Http.structure)" version="-1" />
+  <languageAspect modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(net.alexanderkiel.rat.Http.structure)" version="-1" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="-1" />
@@ -41,7 +41,7 @@
     <property name="name:0" value="ResponseStatusAssert" />
     <link role="extends:0" targetNodeId="736961497060893220" resolveInfo="Assertation" />
   </node>
-  <visible index="3" modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(Http.structure)" />
+  <visible index="3" modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(net.alexanderkiel.rat.Http.structure)" />
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1667099485251985416">
     <property name="name:0" value="TestCase" />
     <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
