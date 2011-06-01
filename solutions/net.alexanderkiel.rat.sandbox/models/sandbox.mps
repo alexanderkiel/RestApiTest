@@ -11,10 +11,20 @@
     <property name="uri" value="/materials/{id}" />
     <property name="name" value="MaterialResource" />
     <node role="testCase" type="net.alexanderkiel.rat.JratDsl.structure.TestCase" id="1844326167509574175">
+      <property name="id" value="550e8400-e29b-41d4-a716-446655440000" />
+      <property name="name" value="GetAsUser" />
       <node role="method" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="1844326167509574177" />
+      <node role="assert" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert" id="1844326167509716666">
+        <node role="status" type="net.alexanderkiel.rat.Http.structure.OK" id="1844326167509716668" />
+      </node>
     </node>
     <node role="testCase" type="net.alexanderkiel.rat.JratDsl.structure.TestCase" id="1844326167509698821">
-      <node role="method" type="net.alexanderkiel.rat.Http.structure.PutMethod" id="1844326167509698823" />
+      <property name="id" value="550e8400-e29b-41d4-a716-446655440000" />
+      <property name="name" value="GetAsNurse" />
+      <node role="assert" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert" id="1844326167509716669">
+        <node role="status" type="net.alexanderkiel.rat.Http.structure.OK" id="1844326167509716671" />
+      </node>
+      <node role="method" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="1844326167509721150" />
     </node>
   </node>
 </model>
