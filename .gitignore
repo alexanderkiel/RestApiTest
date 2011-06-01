@@ -8,4 +8,9 @@ languages/ApiTest/source_gen/
 solutions/Http.sandbox/source_gen.caches
 solutions/Http.sandbox/source_gen
 solutions/Http.sandbox/classes_gen
-
+.dependencies
+.generated
+.hash*
+trace.info
+*.class
+*.java

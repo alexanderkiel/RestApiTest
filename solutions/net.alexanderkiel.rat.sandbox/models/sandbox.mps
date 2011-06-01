@@ -8,9 +8,13 @@
   <languageAspect modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="-1" />
   <maxImportIndex value="0" />
   <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest" id="1844326167509574174">
-    <property name="uri" value="&quot;http://www.google.com&quot;" />
+    <property name="uri" value="/materials/{id}" />
+    <property name="name" value="MaterialResource" />
     <node role="testCase" type="net.alexanderkiel.rat.JratDsl.structure.TestCase" id="1844326167509574175">
       <node role="method" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="1844326167509574177" />
+    </node>
+    <node role="testCase" type="net.alexanderkiel.rat.JratDsl.structure.TestCase" id="1844326167509698821">
+      <node role="method" type="net.alexanderkiel.rat.Http.structure.PutMethod" id="1844326167509698823" />
     </node>
   </node>
 </model>
