@@ -1,1 +1,11 @@
 RestApiTest.iws
+languages/Http/classes_gen/
+languages/Http/source_gen.caches/
+languages/Http/source_gen/
+languages/ApiTest/classes_gen/
+languages/ApiTest/source_gen.caches/
+languages/ApiTest/source_gen/
+solutions/Http.sandbox/source_gen.caches
+solutions/Http.sandbox/source_gen
+solutions/Http.sandbox/classes_gen
+
