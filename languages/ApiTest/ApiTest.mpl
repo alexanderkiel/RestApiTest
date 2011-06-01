@@ -10,12 +10,20 @@
         <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="net.alexanderkiel.rat.JratDsl.generator.template" />
       </models>
       <external-templates />
+      <usedLanguages>
+        <usedLanguage>4813a04b-7ddf-4519-acdf-a7976f554e8b(net.alexanderkiel.rat.JratDsl)</usedLanguage>
+      </usedLanguages>
       <usedDevKits>
         <usedDevKit>fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)</usedDevKit>
       </usedDevKits>
       <mapping-priorities />
     </generator>
   </generators>
+  <stubModelEntries>
+    <stubModelEntry path="/home/akiel/.m2/repository/com/sun/jersey/jersey-test-framework/jersey-test-framework-core/1.5/jersey-test-framework-core-1.5-javadoc.jar">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+  </stubModelEntries>
   <usedDevKits>
     <usedDevKit>2677cb18-f558-4e33-bc38-a5139cee06dc(jetbrains.mps.devkit.language-design)</usedDevKit>
   </usedDevKits>
