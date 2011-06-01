@@ -10,11 +10,13 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
+  <languageAspect modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#com.sun.jersey.api.client(net.alexanderkiel.rat.JratDsl/com.sun.jersey.api.client@java_stub)" version="-1" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <maxImportIndex value="4" />
+  <maxImportIndex value="6" />
   <import index="1" modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="-1" />
   <import index="2" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
-  <import index="4" modelUID="f:java_stub#37a3367b-1fb2-44d8-aa6b-18075e74e003#org.junit(org.junit@java_stub)" version="-1" />
+  <import index="5" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#com.sun.jersey.test.framework(com.sun.jersey.test.framework@java_stub)" version="-1" />
+  <import index="6" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#org.junit(org.junit@java_stub)" version="-1" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="1667099485251990453">
     <property name="name:2" value="main" />
     <node role="rootMappingRule:2" type="jetbrains.mps.lang.generator.structure.Root_MappingRule:2" id="1667099485251993840">
@@ -22,14 +24,29 @@
       <link role="template:2" targetNodeId="1667099485251990474" resolveInfo="TestClass" />
     </node>
   </node>
-  <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
+  <visible index="2" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#com.sun.jersey.api.client(net.alexanderkiel.rat.JratDsl/com.sun.jersey.api.client@java_stub)" />
+  <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1667099485251990474">
     <property name="name:3" value="TestClass" />
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="1844326167509687011">
       <property name="name:3" value="test" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="1844326167509687012" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1844326167509687013" />
-      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1844326167509687014" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1844326167509687014">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="2346124550915555679">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2346124550915564755">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalInstanceMethodCall:3" id="2346124550915555680">
+              <link role="baseMethodDeclaration:3" targetNodeId="5.~JerseyTest.resource():com.sun.jersey.api.client.WebResource" resolveInfo="resource" />
+            </node>
+            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="2346124550915564760">
+              <link role="baseMethodDeclaration:3" targetNodeId="2v.~WebResource.accept(java.lang.String...):com.sun.jersey.api.client.WebResource$Builder" resolveInfo="accept" />
+              <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="2346124550915564763">
+                <property name="value:3" value="text/html" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
       <node role="throwsItem:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="1844326167509696750">
         <link role="classifier:3" targetNodeId="2.~Exception" resolveInfo="Exception" />
       </node>
@@ -57,7 +74,7 @@
                   <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1844326167509721179">
                     <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="1844326167509721175" />
                     <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="1844326167509727268">
-                      <link role="property:16" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
+                      <link role="property:16" targetNodeId="3v.1169194664001:0" resolveInfo="name" />
                     </node>
                   </node>
                 </node>
@@ -96,7 +113,21 @@
     <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="1844326167509687003">
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="1844326167509687004" />
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1844326167509687005" />
-      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1844326167509687006" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1844326167509687006">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.SuperConstructorInvocation:3" id="2346124550915546092">
+          <link role="baseMethodDeclaration:3" targetNodeId="5.~JerseyTest.&lt;init&gt;(com.sun.jersey.test.framework.AppDescriptor)" resolveInfo="JerseyTest" />
+          <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2346124550915555671">
+            <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.GenericNewExpression:3" id="2346124550915555666">
+              <node role="creator:3" type="jetbrains.mps.baseLanguage.structure.ClassCreator:3" id="2346124550915555670">
+                <link role="baseMethodDeclaration:3" targetNodeId="5.~WebAppDescriptor$Builder.&lt;init&gt;()" resolveInfo="WebAppDescriptor.Builder" />
+              </node>
+            </node>
+            <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="2346124550915555678">
+              <link role="baseMethodDeclaration:3" targetNodeId="5.~WebAppDescriptor$Builder.build():com.sun.jersey.test.framework.WebAppDescriptor" resolveInfo="build" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="1667099485251990475" />
     <node role="smodelAttribute:3" type="jetbrains.mps.lang.generator.structure.RootTemplateAnnotation:2" id="1667099485251990480">
@@ -114,13 +145,16 @@
               <node role="leftExpression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1844326167509587210">
                 <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="1844326167509577552" />
                 <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="1844326167509727269">
-                  <link role="property:16" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
+                  <link role="property:16" targetNodeId="3v.1169194664001:0" resolveInfo="name" />
                 </node>
               </node>
             </node>
           </node>
         </node>
       </node>
+    </node>
+    <node role="superclass:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2346124550915521191">
+      <link role="classifier:3" targetNodeId="5.~JerseyTest" resolveInfo="JerseyTest" />
     </node>
   </node>
 </model>
