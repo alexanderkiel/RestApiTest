@@ -20,6 +20,9 @@
     </generator>
   </generators>
   <stubModelEntries>
+    <stubModelEntry path="/home/akiel/coding/RestApiTest/lib/javaee-api-6.0.jar">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
     <stubModelEntry path="/home/akiel/coding/RestApiTest/lib/jersey-client-1.5.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
