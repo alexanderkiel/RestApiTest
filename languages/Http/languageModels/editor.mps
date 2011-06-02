@@ -35,13 +35,19 @@
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="736961497060893605">
     <link role="conceptDeclaration:32" targetNodeId="1.736961497060893602" resolveInfo="OK" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="736961497060893607">
-      <property name="text:32" value="OK" />
+      <property name="text:32" value="Ok" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="1844326167509697728">
     <link role="conceptDeclaration:32" targetNodeId="1.1844326167509697724" resolveInfo="PutMethod" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="1844326167509697730">
       <property name="text:32" value="PUT" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="5342728986476358894">
+    <link role="conceptDeclaration:32" targetNodeId="1.5342728986476358891" resolveInfo="NotModified" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="5342728986476358896">
+      <property name="text:32" value="Not-Modified" />
     </node>
   </node>
 </model>

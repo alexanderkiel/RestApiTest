@@ -82,5 +82,13 @@
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5342728986476358891">
+    <property name="name:0" value="NotModified" />
+    <link role="extends:0" targetNodeId="736961497060893599" resolveInfo="Status" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="5342728986476358893">
+      <property name="value:0" value="Not-Modified" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
 </model>
 

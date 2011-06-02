@@ -23,7 +23,7 @@
       <property name="id" value="550e8400-e29b-41d4-a716-446655440000" />
       <property name="name" value="GetAsNurse" />
       <node role="assert" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert" id="1844326167509716669">
-        <node role="status" type="net.alexanderkiel.rat.Http.structure.OK" id="1844326167509716671" />
+        <node role="status" type="net.alexanderkiel.rat.Http.structure.NotModified" id="5342728986476359719" />
       </node>
       <node role="method" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="1844326167509721150" />
     </node>
