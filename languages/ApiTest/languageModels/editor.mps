@@ -62,9 +62,11 @@
           <property name="text:32" value="invoke" />
         </node>
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode:32" id="1844326167509699084">
+          <property name="attractsFocus:32" value="2" />
           <link role="relationDeclaration:32" targetNodeId="1.1667099485251985434" />
         </node>
         <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="1844326167509699086">
+          <property name="allowEmptyText:32" value="true" />
           <link role="relationDeclaration:32" targetNodeId="1.1844326167509699075" resolveInfo="id" />
           <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.ForegroundColorStyleClassItem:32" id="1844326167509700649">
             <property name="color:32" value="DARK_GREEN" />

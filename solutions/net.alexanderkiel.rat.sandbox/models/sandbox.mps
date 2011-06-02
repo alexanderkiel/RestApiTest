@@ -28,5 +28,16 @@
       <node role="method" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="1844326167509721150" />
     </node>
   </node>
+  <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest" id="3957441579475186433">
+    <property name="name" value="Google" />
+    <property name="uri" value="http://google.com" />
+    <node role="testCase" type="net.alexanderkiel.rat.JratDsl.structure.TestCase" id="3957441579475187994">
+      <property name="name" value="Get" />
+      <node role="method" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="3957441579475187997" />
+      <node role="assert" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert" id="3957441579475187998">
+        <node role="status" type="net.alexanderkiel.rat.Http.structure.OK" id="3957441579475188000" />
+      </node>
+    </node>
+  </node>
 </model>
 
