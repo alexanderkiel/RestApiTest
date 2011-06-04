@@ -35,7 +35,7 @@
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="736961497060893605">
     <link role="conceptDeclaration:32" targetNodeId="1.736961497060893602" resolveInfo="OK" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="736961497060893607">
-      <property name="text:32" value="Ok" />
+      <property name="text:32" value="OK" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="1844326167509697728">
@@ -47,7 +47,43 @@
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="5342728986476358894">
     <link role="conceptDeclaration:32" targetNodeId="1.5342728986476358891" resolveInfo="NotModified" />
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="5342728986476358896">
-      <property name="text:32" value="Not-Modified" />
+      <property name="text:32" value="Not Modified" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="4001518867913708496">
+    <link role="conceptDeclaration:32" targetNodeId="1.4001518867913708499" resolveInfo="NotFound" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="4001518867913708498">
+      <property name="text:32" value="Not-Found" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="4001518867913708503">
+    <link role="conceptDeclaration:32" targetNodeId="1.4001518867913708501" resolveInfo="Created" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="4001518867913708505">
+      <property name="text:32" value="Created" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="4001518867913708506">
+    <link role="conceptDeclaration:32" targetNodeId="1.4001518867913708499" resolveInfo="NotFound" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="4001518867913708508">
+      <property name="text:32" value="Not Found" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="4001518867913855109">
+    <link role="conceptDeclaration:32" targetNodeId="1.4001518867913855107" resolveInfo="Accepted" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="4001518867913855111">
+      <property name="text:32" value="Accepted" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="4001518867913855114">
+    <link role="conceptDeclaration:32" targetNodeId="1.4001518867913855112" resolveInfo="NoContent" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="4001518867913855116">
+      <property name="text:32" value="No Content" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="4001518867913855119">
+    <link role="conceptDeclaration:32" targetNodeId="1.4001518867913855117" resolveInfo="BadRequest" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="4001518867913855121">
+      <property name="text:32" value="Bad Request" />
     </node>
   </node>
 </model>

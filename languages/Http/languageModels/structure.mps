@@ -86,7 +86,47 @@
     <property name="name:0" value="NotModified" />
     <link role="extends:0" targetNodeId="736961497060893599" resolveInfo="Status" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="5342728986476358893">
-      <property name="value:0" value="Not-Modified" />
+      <property name="value:0" value="Not Modified" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4001518867913708499">
+    <property name="name:0" value="NotFound" />
+    <link role="extends:0" targetNodeId="736961497060893599" resolveInfo="Status" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4001518867913708500">
+      <property name="value:0" value="Not Found" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4001518867913708501">
+    <property name="name:0" value="Created" />
+    <link role="extends:0" targetNodeId="736961497060893599" resolveInfo="Status" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4001518867913708502">
+      <property name="value:0" value="Created" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4001518867913855107">
+    <property name="name:0" value="Accepted" />
+    <link role="extends:0" targetNodeId="736961497060893599" resolveInfo="Status" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4001518867913855108">
+      <property name="value:0" value="Accepted" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4001518867913855112">
+    <property name="name:0" value="NoContent" />
+    <link role="extends:0" targetNodeId="736961497060893599" resolveInfo="Status" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4001518867913855113">
+      <property name="value:0" value="No Content" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4001518867913855117">
+    <property name="name:0" value="BadRequest" />
+    <link role="extends:0" targetNodeId="736961497060893599" resolveInfo="Status" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="4001518867913855118">
+      <property name="value:0" value="Bad Request" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
