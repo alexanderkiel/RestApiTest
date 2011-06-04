@@ -30,7 +30,7 @@
   </node>
   <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest" id="3957441579475186433">
     <property name="name" value="Google" />
-    <property name="uri" value="http://google.com" />
+    <property name="uri" value="/" />
     <node role="testCase" type="net.alexanderkiel.rat.JratDsl.structure.TestCase" id="3957441579475187994">
       <property name="name" value="Get" />
       <node role="method" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="3957441579475187997" />

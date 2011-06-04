@@ -150,6 +150,15 @@
           </node>
         </node>
       </node>
+      <node role="annotation:3" type="jetbrains.mps.baseLanguage.structure.AnnotationInstance:3" id="3503388040613806690">
+        <link role="annotation:3" targetNodeId="6.~Test" resolveInfo="Test" />
+        <node role="value:3" type="jetbrains.mps.baseLanguage.structure.AnnotationInstanceValue:3" id="3503388040613806852">
+          <link role="key:3" targetNodeId="6.~Test.timeout()" resolveInfo="timeout" />
+          <node role="value:3" type="jetbrains.mps.baseLanguage.structure.IntegerConstant:3" id="3503388040613808698">
+            <property name="value:3" value="10000" />
+          </node>
+        </node>
+      </node>
     </node>
     <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="1844326167509687007">
       <property name="name:3" value="uri" />
@@ -228,15 +237,6 @@
       <property name="name:3" value="dummy" />
       <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="3957441579475186184" />
       <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="3957441579475186185">
-        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="3957441579475186189">
-          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="3957441579475186190">
-            <property name="name:3" value="response" />
-            <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="3957441579475186191">
-              <link role="classifier:3" targetNodeId="7.~ClientResponse" resolveInfo="ClientResponse" />
-            </node>
-            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.NullLiteral:3" id="3957441579475186215" />
-          </node>
-        </node>
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="3957441579475186200">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="3957441579475186201">
             <link role="baseMethodDeclaration:3" targetNodeId="6.~Assert.assertEquals(java.lang.Object,java.lang.Object):void" resolveInfo="assertEquals" />
@@ -259,14 +259,25 @@
                 </node>
               </node>
             </node>
-            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="3957441579475186213">
-              <link role="variableDeclaration:3" targetNodeId="3957441579475186190" resolveInfo="response" />
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="983088790783558933">
+              <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="983088790783558937">
+                <link role="baseMethodDeclaration:3" targetNodeId="7.~ClientResponse.getClientResponseStatus():com.sun.jersey.api.client.ClientResponse$Status" resolveInfo="getClientResponseStatus" />
+              </node>
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="983088790783725170">
+                <link role="variableDeclaration:3" targetNodeId="983088790783725168" resolveInfo="response" />
+              </node>
             </node>
           </node>
           <node role="smodelAttribute:3" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="3957441579475186211" />
         </node>
       </node>
       <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="3957441579475186186" />
+      <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="983088790783725168">
+        <property name="name:3" value="response" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="983088790783725169">
+          <link role="classifier:3" targetNodeId="7.~ClientResponse" resolveInfo="ClientResponse" />
+        </node>
+      </node>
     </node>
   </node>
 </model>
