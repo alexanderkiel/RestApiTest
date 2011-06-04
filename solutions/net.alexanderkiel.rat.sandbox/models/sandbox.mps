@@ -74,6 +74,19 @@
         <property name="value:0" value="[]" />
       </node>
     </node>
+    <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="4001518867913708485">
+      <property name="name:0" value="GetLabelsForUnknownUser" />
+      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert:0" id="4001518867913857525">
+        <node role="status:0" type="net.alexanderkiel.rat.Http.structure.NotFound" id="4001518867913857527" />
+      </node>
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4001518867913708489">
+        <property name="value:3" value="htvrtzruzt" />
+      </node>
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="4001518867913708490">
+        <property name="value:3" value="ztvtzvt" />
+      </node>
+      <node role="method:0" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="4001518867913708488" />
+    </node>
   </node>
 </model>
 
