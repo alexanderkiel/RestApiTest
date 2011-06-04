@@ -20,8 +20,8 @@
   <import index="5" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#com.sun.jersey.test.framework(com.sun.jersey.test.framework@java_stub)" version="-1" />
   <import index="6" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#org.junit(org.junit@java_stub)" version="-1" />
   <import index="7" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#com.sun.jersey.api.client(com.sun.jersey.api.client@java_stub)" version="-1" />
-  <import index="8" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#com.sun.jersey.api.uri(net.alexanderkiel.rat.JratDsl/com.sun.jersey.api.uri@java_stub)" version="-1" />
-  <import index="9" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.net(JDK/java.net@java_stub)" version="-1" />
+  <import index="8" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#com.sun.jersey.api.uri(com.sun.jersey.api.uri@java_stub)" version="-1" />
+  <import index="9" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.net(java.net@java_stub)" version="-1" />
   <import index="10" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#javax.ws.rs.core(javax.ws.rs.core@java_stub)" version="-1" />
   <visible index="2" modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(net.alexanderkiel.rat.Http.structure)" />
   <node type="jetbrains.mps.lang.generator.structure.MappingConfiguration:2" id="1667099485251990453">
@@ -58,6 +58,15 @@
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence:2" id="5342728986476359571">
         <node role="templateNode:2" type="jetbrains.mps.baseLanguage.structure.EnumConstantReference:3" id="5342728986476359575">
           <link role="enumConstantDeclaration:3" targetNodeId="7.~ClientResponse$Status.NOT_MODIFIED" resolveInfo="NOT_MODIFIED" />
+          <link role="enumClass:3" targetNodeId="7.~ClientResponse$Status" resolveInfo="ClientResponse.Status" />
+        </node>
+      </node>
+    </node>
+    <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="4001518867913907183">
+      <link role="applicableConcept:2" targetNodeId="2v.4001518867913708499" resolveInfo="NotFound" />
+      <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.InlineTemplate_RuleConsequence:2" id="4001518867913907185">
+        <node role="templateNode:2" type="jetbrains.mps.baseLanguage.structure.EnumConstantReference:3" id="4001518867913907187">
+          <link role="enumConstantDeclaration:3" targetNodeId="7.~ClientResponse$Status.NOT_FOUND" resolveInfo="NOT_FOUND" />
           <link role="enumClass:3" targetNodeId="7.~ClientResponse$Status" resolveInfo="ClientResponse.Status" />
         </node>
       </node>
