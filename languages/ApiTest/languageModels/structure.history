@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="nsyn" modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="-1" />
+    </dependencies>
+    <rename id="nsyn.1667099485251985420" type="PROPERTY" from="uri" to="uriTemplate" />
+  </StructureModification>
+</history>
+

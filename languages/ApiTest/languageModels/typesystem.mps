@@ -12,7 +12,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="-1" />
+  <import index="1" modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="0" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <node type="jetbrains.mps.lang.typesystem.structure.NonTypesystemRule:3" id="5342728986476308053">
     <property name="name:3" value="TestCaseNameUniqueness" />
@@ -36,7 +36,7 @@
             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5342728986476344380">
               <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5342728986476344375">
                 <node role="operand:3" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression:16" id="5342728986476344373">
-                  <link role="concept:16" targetNodeId="1.736961497060733632" resolveInfo="ResourceTest" />
+                  <link role="concept:16" targetNodeId="1.736961497060733632:0" resolveInfo="ResourceTest" />
                   <node role="leftExpression:16" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5342728986476311748">
                     <node role="operand:3" type="jetbrains.mps.lang.typesystem.structure.ApplicableNodeReference:3" id="5342728986476311747">
                       <link role="applicableNode:3" targetNodeId="5342728986476308056" resolveInfo="testCase" />
@@ -45,7 +45,7 @@
                   </node>
                 </node>
                 <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="5342728986476344379">
-                  <link role="link:16" targetNodeId="1.736961497060733633" />
+                  <link role="link:16" targetNodeId="1.736961497060733633:0" />
                 </node>
               </node>
               <node role="operation:3" type="jetbrains.mps.baseLanguage.collections.structure.WhereOperation:7" id="5342728986476344384">
@@ -86,7 +86,7 @@
     </node>
     <node role="applicableNode:3" type="jetbrains.mps.lang.typesystem.structure.ConceptReference:3" id="5342728986476308056">
       <property name="name:3" value="testCase" />
-      <link role="concept:3" targetNodeId="1.1667099485251985416" resolveInfo="TestCase" />
+      <link role="concept:3" targetNodeId="1.1667099485251985416:0" resolveInfo="TestCase" />
     </node>
   </node>
 </model>

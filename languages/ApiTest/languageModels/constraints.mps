@@ -10,11 +10,11 @@
   <languageAspect modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <maxImportIndex value="1" />
-  <import index="1" modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="-1" />
+  <import index="1" modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="0" />
   <visible index="2" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <visible index="3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" />
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="6798484110828548588">
-    <link role="concept:8" targetNodeId="1.736961497060733632" resolveInfo="ResourceTest" />
+    <link role="concept:8" targetNodeId="1.736961497060733632:0" resolveInfo="ResourceTest" />
     <node role="property:8" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint:8" id="6798484110828548589">
       <link role="applicableProperty:8" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
       <node role="propertyValidator:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator:8" id="6798484110828548590">
@@ -47,7 +47,7 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.constraints.structure.ConceptConstraints:8" id="5342728986476307695">
-    <link role="concept:8" targetNodeId="1.1667099485251985416" resolveInfo="TestCase" />
+    <link role="concept:8" targetNodeId="1.1667099485251985416:0" resolveInfo="TestCase" />
     <node role="property:8" type="jetbrains.mps.lang.constraints.structure.NodePropertyConstraint:8" id="5342728986476307696">
       <link role="applicableProperty:8" targetNodeId="2v.1169194664001:0" resolveInfo="name" />
       <node role="propertyValidator:8" type="jetbrains.mps.lang.constraints.structure.ConstraintFunction_PropertyValidator:8" id="5342728986476307697">
