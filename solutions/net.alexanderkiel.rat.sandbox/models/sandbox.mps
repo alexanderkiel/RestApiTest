@@ -38,6 +38,7 @@
   <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest:0" id="3957441579475186433">
     <property name="name:0" value="Google" />
     <property name="uriTemplate:0" value="/" />
+    <property name="baseUri:0" value="http://google.com" />
     <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="3957441579475187994">
       <property name="name:0" value="Get" />
       <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.HeaderAssert:0" id="983088790783736353">
