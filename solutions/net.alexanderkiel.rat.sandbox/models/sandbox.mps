@@ -76,7 +76,7 @@
       </node>
     </node>
     <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="4001518867913708485">
-      <property name="name:0" value="GetLabelsForUnknownUser" />
+      <property name="name:0" value="GetLabelNotFound" />
       <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert:0" id="4001518867913857525">
         <node role="status:0" type="net.alexanderkiel.rat.Http.structure.NotFound" id="4001518867913857527" />
       </node>
@@ -87,6 +87,19 @@
         <property name="value:3" value="ztvtzvt" />
       </node>
       <node role="method:0" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="4001518867913708488" />
+    </node>
+    <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="1065715007254922032">
+      <property name="name:0" value="CreateLabel" />
+      <node role="method:0" type="net.alexanderkiel.rat.Http.structure.PostMethod" id="1065715007254923269" />
+      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert:0" id="1065715007254923272">
+        <node role="status:0" type="net.alexanderkiel.rat.Http.structure.Created" id="1065715007254923274" />
+      </node>
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1065715007254923270">
+        <property name="value:3" value="alexanderkiel" />
+      </node>
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1065715007254923271">
+        <property name="value:3" value="RestApiTest" />
+      </node>
     </node>
   </node>
 </model>

@@ -130,5 +130,13 @@
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="1065715007254922037">
+    <property name="name:0" value="PostMethod" />
+    <link role="extends:0" targetNodeId="736961497060733610" resolveInfo="Method" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1065715007254922039">
+      <property name="value:0" value="POST" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
 </model>
 

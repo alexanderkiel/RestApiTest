@@ -86,5 +86,11 @@
       <property name="text:32" value="Bad Request" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="1065715007254922040">
+    <link role="conceptDeclaration:32" targetNodeId="1.1065715007254922037" resolveInfo="PostMethod" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="1065715007254922042">
+      <property name="text:32" value="POST" />
+    </node>
+  </node>
 </model>
 
