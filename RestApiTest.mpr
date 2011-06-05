@@ -9,6 +9,7 @@
       <modulePath path="${project}/languages/Http/Http.mpl" />
       <modulePath path="${project}/languages/ApiTest/ApiTest.mpl" folder="" />
       <modulePath path="${project}/solutions/net.alexanderkiel.rat.sandbox/sandbox.msd" folder="" />
+      <modulePath path="${project}/languages/Sql/Sql.mpl" folder="" />
     </projectModules>
     <genConfs />
   </component>

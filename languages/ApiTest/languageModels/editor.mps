@@ -137,5 +137,20 @@
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="6901432874814442558" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="7825846011344695289">
+    <link role="conceptDeclaration:32" targetNodeId="1.7825846011344695285:0" resolveInfo="TableAssert" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="7825846011344695291">
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="7825846011344695294">
+        <property name="text:32" value="assert equals" />
+      </node>
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="3785728049477140449">
+        <link role="relationDeclaration:32" targetNodeId="1.3785728049477140447:0" resolveInfo="value" />
+      </node>
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNode:32" id="7825846011344695296">
+        <link role="relationDeclaration:32" targetNodeId="1.7825846011344695286:0" />
+      </node>
+      <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="7825846011344695293" />
+    </node>
+  </node>
 </model>
 
