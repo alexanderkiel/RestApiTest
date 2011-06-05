@@ -10,6 +10,9 @@
         <modelRoot path="${language_descriptor}/generator/template" namespacePrefix="net.alexanderkiel.rat.JratDsl.generator.template" />
       </models>
       <external-templates />
+      <dependencies>
+        <dependency reexport="false">de2d81d5-75de-443d-bc66-271c80df3f9d(net.alexanderkiel.junit)</dependency>
+      </dependencies>
       <usedLanguages>
         <usedLanguage>4813a04b-7ddf-4519-acdf-a7976f554e8b(net.alexanderkiel.rat.JratDsl)</usedLanguage>
       </usedLanguages>
