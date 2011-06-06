@@ -179,7 +179,9 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="6670678901860273174">
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="6670678901860273177">
         <property name="noTargetText:32" value="&lt;enter expected value&gt;" />
+        <property name="attractsFocus:32" value="1" />
         <link role="relationDeclaration:32" targetNodeId="1.6670678901860273170:0" resolveInfo="expectedValue" />
+        <link role="styleClass:32" targetNodeId="3v.1186415563770" resolveInfo="StringLiteral" />
       </node>
       <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="6670678901860273179">
         <property name="text:32" value="for" />

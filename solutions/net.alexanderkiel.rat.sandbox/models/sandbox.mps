@@ -11,83 +11,8 @@
   <languageAspect modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
-  <languageAspect modelUID="r:8a1085ea-c696-49b5-81a3-bbe61c2fbd1e(net.alexanderkiel.Sql.structure)" version="-1" />
   <languageAspect modelUID="r:c01bdafd-08cd-461f-ab88-4ed398f6d9e2(net.alexanderkiel.XPath.structure)" version="-1" />
   <maxImportIndex value="1" />
-  <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest:0" id="1844326167509574174">
-    <property name="uriTemplate:0" value="/materials/{id}" />
-    <property name="name:0" value="MaterialResource" />
-    <property name="baseUri:0" value="http://api.cryolab-dev.life.uni-leipzig.local" />
-    <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="1844326167509574175">
-      <property name="name:0" value="GetAsUser" />
-      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert:0" id="6901432874814388688">
-        <node role="status:0" type="net.alexanderkiel.rat.Http.structure.OK" id="6901432874814388690" />
-      </node>
-      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="6901432874814377094">
-        <property name="value:3" value="foo" />
-      </node>
-      <node role="method:0" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="1844326167509574177" />
-    </node>
-    <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="1844326167509698821">
-      <property name="name:0" value="GetAsNurse" />
-      <node role="method:0" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="1844326167509721150" />
-      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="6901432874814377096">
-        <property name="value:3" value="foo" />
-      </node>
-      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert:0" id="6901432874814388697">
-        <node role="status:0" type="net.alexanderkiel.rat.Http.structure.OK" id="6901432874814388699" />
-      </node>
-    </node>
-    <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="7825846011344701369">
-      <property name="name:0" value="Get" />
-      <node role="method:0" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="7825846011344701372" />
-      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert:0" id="3785728049477204192">
-        <node role="status:0" type="net.alexanderkiel.rat.Http.structure.OK" id="3785728049477204193" />
-      </node>
-      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.TableAssert:0" id="7825846011344720419">
-        <property name="value:0" value="foo" />
-        <node role="query:0" type="net.alexanderkiel.Sql.structure.Query" id="7825846011344720420">
-          <node role="selectList" type="net.alexanderkiel.Sql.structure.SelectList" id="7825846011344720421">
-            <node role="selectSublist" type="net.alexanderkiel.Sql.structure.DerivedColumn" id="3785728049477102029">
-              <node role="valueExpression" type="net.alexanderkiel.Sql.structure.ReferenceValueExpression" id="3785728049477102031">
-                <node role="valueExpressionPrimary" type="net.alexanderkiel.Sql.structure.ColumnReference" id="3785728049477102033">
-                  <property name="name" value="CLA_NAME" />
-                </node>
-              </node>
-            </node>
-          </node>
-          <node role="tableExpression" type="net.alexanderkiel.Sql.structure.TableExpression" id="7825846011344725643">
-            <node role="fromClause" type="net.alexanderkiel.Sql.structure.FromClause" id="7825846011344725644">
-              <node role="tableReference" type="net.alexanderkiel.Sql.structure.TablePrimary" id="3785728049477087365">
-                <node role="tableName" type="net.alexanderkiel.Sql.structure.TableName" id="3785728049477087367">
-                  <property name="name" value="CLA_MATERIAL" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="7825846011344701373">
-        <property name="value:3" value="foo" />
-      </node>
-    </node>
-  </node>
-  <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest:0" id="3957441579475186433">
-    <property name="name:0" value="Google" />
-    <property name="uriTemplate:0" value="/" />
-    <property name="baseUri:0" value="http://google.com" />
-    <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="3957441579475187994">
-      <property name="name:0" value="Get" />
-      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.HeaderAssert:0" id="983088790783736353">
-        <property name="name:0" value="ETag" />
-        <property name="value:0" value="foo" />
-      </node>
-      <node role="method:0" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="3957441579475187997" />
-      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert:0" id="3957441579475187998">
-        <node role="status:0" type="net.alexanderkiel.rat.Http.structure.OK" id="3957441579475188000" />
-      </node>
-    </node>
-  </node>
   <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest:0" id="983088790783742377">
     <property name="name:0" value="GitHubLabels" />
     <property name="uriTemplate:0" value="/repos/{user}/{repo}/labels" />
@@ -156,18 +81,22 @@
         <node role="status:0" type="net.alexanderkiel.rat.Http.structure.OK" id="5041098170606066898" />
       </node>
       <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.JsonAssert:0" id="6670678901860319164">
-        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="6670678901860319165">
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="4196148438192407231">
           <property name="expectedValue:0" value="Feature" />
-          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="6670678901860319166">
-            <node role="relativePathExpr" type="net.alexanderkiel.XPath.structure.RelativePathExpr" id="6670678901860319777">
-              <node role="leftSide" type="net.alexanderkiel.XPath.structure.AxisStep" id="6670678901860319779">
-                <node role="forwardStep" type="net.alexanderkiel.XPath.structure.ForwardStep" id="6670678901860319780">
-                  <node role="abbrevForwardStep" type="net.alexanderkiel.XPath.structure.AbbrevForwardStep" id="6670678901860319781">
-                    <node role="nodeTest" type="net.alexanderkiel.XPath.structure.QName" id="6670678901860319783">
-                      <property name="value" value="name" />
-                    </node>
-                  </node>
-                </node>
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="4196148438192407232">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="4196148438192407233">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.QName" id="4196148438192407235">
+                <property name="value" value="name" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="6670678901860319165">
+          <property name="expectedValue:0" value="02e10c" />
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="4196148438192334984">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="4196148438192407237">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.QName" id="4196148438192407239">
+                <property name="value" value="color" />
               </node>
             </node>
           </node>
