@@ -11,7 +11,7 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:8a1085ea-c696-49b5-81a3-bbe61c2fbd1e(net.alexanderkiel.Sql.structure)" version="-1" />
-  <maxImportIndex value="0" />
+  <maxImportIndex value="1" />
   <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest:0" id="1844326167509574174">
     <property name="uriTemplate:0" value="/materials/{id}" />
     <property name="name:0" value="MaterialResource" />
@@ -106,9 +106,6 @@
         <property name="name:0" value="Content-Type" />
         <property name="value:0" value="application/json" />
       </node>
-      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.StringContentAssert:0" id="6901432874814458494">
-        <property name="value:0" value="[]" />
-      </node>
     </node>
     <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="4001518867913708485">
       <property name="name:0" value="GetLabelNotFound" />
@@ -134,6 +131,31 @@
       </node>
       <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1065715007254923271">
         <property name="value:3" value="RestApiTest" />
+      </node>
+    </node>
+  </node>
+  <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest:0" id="5041098170606066887">
+    <property name="baseUri:0" value="https://api.github.com" />
+    <property name="name:0" value="GitHubLabel" />
+    <property name="uriTemplate:0" value="/repos/{user}/{repo}/labels/{id}" />
+    <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="5041098170606066888">
+      <property name="name:0" value="GetLabel" />
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5041098170606066892">
+        <property name="value:3" value="alexanderkiel" />
+      </node>
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5041098170606066893">
+        <property name="value:3" value="RestApiTest" />
+      </node>
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5041098170606066894">
+        <property name="value:3" value="Feature" />
+      </node>
+      <node role="method:0" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="5041098170606066891" />
+      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert:0" id="5041098170606066895">
+        <node role="status:0" type="net.alexanderkiel.rat.Http.structure.OK" id="5041098170606066898" />
+      </node>
+      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.JsonAssert:0" id="5041098170606107897">
+        <property name="value:0" value="Feature" />
+        <property name="key:0" value="name" />
       </node>
     </node>
   </node>

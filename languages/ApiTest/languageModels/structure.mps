@@ -130,5 +130,21 @@
       <link role="target:0" targetNodeId="5v.7825846011344651471" resolveInfo="Query" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5041098170606071420">
+    <property name="name:0" value="JsonAssert" />
+    <link role="extends:0" targetNodeId="736961497060893220:0" resolveInfo="Assert" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="5041098170606071434">
+      <property name="value:0" value="assert json" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5041098170606071431">
+      <property name="name:0" value="key" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5041098170606083485">
+      <property name="name:0" value="value" />
+      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+  </node>
 </model>
 

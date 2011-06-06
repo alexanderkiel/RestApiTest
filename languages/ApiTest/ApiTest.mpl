@@ -12,6 +12,7 @@
       <external-templates />
       <dependencies>
         <dependency reexport="false">de2d81d5-75de-443d-bc66-271c80df3f9d(net.alexanderkiel.junit)</dependency>
+        <dependency reexport="false">0a56bcc8-b618-43e1-82b3-7b02708aaf9b(net.alexanderkiel.rat.Http)</dependency>
       </dependencies>
       <usedLanguages>
         <usedLanguage>4813a04b-7ddf-4519-acdf-a7976f554e8b(net.alexanderkiel.rat.JratDsl)</usedLanguage>
@@ -32,7 +33,13 @@
     <stubModelEntry path="/home/akiel/coding/RestApiTest/lib/jersey-core-1.5.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
+    <stubModelEntry path="/home/akiel/coding/RestApiTest/lib/jersey-json-1.5.jar">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
     <stubModelEntry path="/home/akiel/coding/RestApiTest/lib/jersey-test-framework-core-1.5.jar">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+    <stubModelEntry path="/home/akiel/coding/RestApiTest/lib/jettison-1.1.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
     <stubModelEntry path="/home/akiel/coding/RestApiTest/lib/junit-4.8.2.jar">

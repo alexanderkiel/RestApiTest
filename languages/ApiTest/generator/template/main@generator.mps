@@ -13,13 +13,11 @@
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" />
   <languageAspect modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(net.alexanderkiel.rat.Http.structure)" version="-1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" />
-  <languageAspect modelUID="r:f9cd2e66-3256-4193-b5f2-f5e2008299fa(net.alexanderkiel.rat.Http.behavior)" version="-1" />
   <languageAspect modelUID="r:8a1085ea-c696-49b5-81a3-bbe61c2fbd1e(net.alexanderkiel.Sql.structure)" version="-1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" />
-  <languageAspect modelUID="r:456c657b-7acf-4413-95dd-bacea8767ab1(net.alexanderkiel.rat.JratDsl.behavior)" version="-1" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <maxImportIndex value="14" />
+  <maxImportIndex value="18" />
   <import index="1" modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="0" />
   <import index="2" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(java.lang@java_stub)" version="-1" />
   <import index="5" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#com.sun.jersey.test.framework(com.sun.jersey.test.framework@java_stub)" version="-1" />
@@ -32,6 +30,10 @@
   <import index="12" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#javax.sql(javax.sql@java_stub)" version="-1" />
   <import index="13" modelUID="r:4de73df2-4803-4e54-b9cf-7ca21a55f138(net.alexanderkiel.junit.db)" version="-1" />
   <import index="14" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
+  <import index="15" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#org.junit.runner(org.junit.runner@java_stub)" version="-1" />
+  <import index="16" modelUID="f:java_stub#4813a04b-7ddf-4519-acdf-a7976f554e8b#org.codehaus.jettison.json(org.codehaus.jettison.json@java_stub)" version="-1" />
+  <import index="17" modelUID="r:f9cd2e66-3256-4193-b5f2-f5e2008299fa(net.alexanderkiel.rat.Http.behavior)" version="-1" />
+  <import index="18" modelUID="r:456c657b-7acf-4413-95dd-bacea8767ab1(net.alexanderkiel.rat.JratDsl.behavior)" version="-1" />
   <visible index="2" modelUID="r:8a1085ea-c696-49b5-81a3-bbe61c2fbd1e(net.alexanderkiel.Sql.structure)" />
   <visible index="3" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" />
   <visible index="4" modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(net.alexanderkiel.rat.Http.structure)" />
@@ -44,6 +46,11 @@
     </node>
     <node role="mappingLabel:2" type="jetbrains.mps.lang.generator.structure.MappingLabelDeclaration:2" id="3836070446262415701">
       <property name="name:2" value="DatabaseRule" />
+      <link role="sourceConcept:2" targetNodeId="1.736961497060733632:0" resolveInfo="ResourceTest" />
+      <link role="targetConcept:2" targetNodeId="14.1068498886292:3" resolveInfo="ParameterDeclaration" />
+    </node>
+    <node role="mappingLabel:2" type="jetbrains.mps.lang.generator.structure.MappingLabelDeclaration:2" id="2904205143210549418">
+      <property name="name:2" value="JsonObject" />
       <link role="sourceConcept:2" targetNodeId="1.736961497060733632:0" resolveInfo="ResourceTest" />
       <link role="targetConcept:2" targetNodeId="14.1068498886292:3" resolveInfo="ParameterDeclaration" />
     </node>
@@ -63,6 +70,12 @@
       <link role="applicableConcept:2" targetNodeId="1.6901432874814442550:0" resolveInfo="StringContentAssert" />
       <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="6901432874814446295">
         <link role="template:2" targetNodeId="6901432874814442560" resolveInfo="StringContentAssert" />
+      </node>
+    </node>
+    <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="5041098170606095568">
+      <link role="applicableConcept:2" targetNodeId="1.5041098170606071420:0" resolveInfo="JsonArrayAssert" />
+      <node role="ruleConsequence:2" type="jetbrains.mps.lang.generator.structure.TemplateDeclarationReference:2" id="5041098170606095570">
+        <link role="template:2" targetNodeId="5041098170606072089" resolveInfo="JsonArrayAssertTemplate" />
       </node>
     </node>
     <node role="reductionMappingRule:2" type="jetbrains.mps.lang.generator.structure.Reduction_MappingRule:2" id="3785728049477198395">
@@ -266,8 +279,6 @@
       <link role="template:2" targetNodeId="1667099485251990474" resolveInfo="TestClass" />
     </node>
   </node>
-  <visible index="5" modelUID="r:f9cd2e66-3256-4193-b5f2-f5e2008299fa(net.alexanderkiel.rat.Http.behavior)" />
-  <visible index="6" modelUID="r:456c657b-7acf-4413-95dd-bacea8767ab1(net.alexanderkiel.rat.JratDsl.behavior)" />
   <node type="jetbrains.mps.baseLanguage.structure.ClassConcept:3" id="1667099485251990474">
     <property name="name:3" value="TestClass" />
     <node role="method:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="6901432874814385047">
@@ -373,7 +384,7 @@
                             </node>
                           </node>
                           <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall:16" id="1065715007254928838">
-                            <link role="baseMethodDeclaration:16" targetNodeId="5v.1065715007254924637" resolveInfo="name" />
+                            <link role="baseMethodDeclaration:16" targetNodeId="17.1065715007254924637" resolveInfo="name" />
                           </node>
                         </node>
                       </node>
@@ -633,7 +644,7 @@
                                           <link role="variableDeclaration:3" targetNodeId="8307750758729933996" resolveInfo="it" />
                                         </node>
                                         <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall:16" id="8307750758729934005">
-                                          <link role="baseMethodDeclaration:16" targetNodeId="6v.8307750758729928794" resolveInfo="needsDatabaseRule" />
+                                          <link role="baseMethodDeclaration:16" targetNodeId="18.8307750758729928794" resolveInfo="needsDatabaseRule" />
                                         </node>
                                       </node>
                                     </node>
@@ -661,6 +672,16 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+    <node role="field:3" type="jetbrains.mps.baseLanguage.structure.FieldDeclaration:3" id="2904205143210549406">
+      <property name="name:3" value="jsonObject" />
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PrivateVisibility:3" id="2904205143210549407" />
+      <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2904205143210549413">
+        <link role="classifier:3" targetNodeId="16.~JSONObject" resolveInfo="JSONObject" />
+      </node>
+      <node role="smodelAttribute:3" type="jetbrains.mps.lang.generator.structure.LabelMacro:2" id="2904205143210549424">
+        <link role="mappingLabel:2" targetNodeId="2904205143210549418" resolveInfo="JsonObject" />
       </node>
     </node>
     <node role="constructor:3" type="jetbrains.mps.baseLanguage.structure.ConstructorDeclaration:3" id="1844326167509687003">
@@ -1170,6 +1191,124 @@
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.generator.structure.TemplateDeclaration:2" id="5041098170606072089">
+    <property name="name:2" value="JsonAssertTemplate" />
+    <link role="applicableConcept:2" targetNodeId="1.5041098170606071420:0" resolveInfo="JsonArrayAssert" />
+    <node role="contentNode:2" type="jetbrains.mps.baseLanguage.structure.InstanceMethodDeclaration:3" id="5041098170606072093">
+      <property name="name:3" value="dummy" />
+      <node role="returnType:3" type="jetbrains.mps.baseLanguage.structure.VoidType:3" id="5041098170606072094" />
+      <node role="body:3" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5041098170606072095">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement:3" id="5041098170606072096">
+          <node role="localVariableDeclaration:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration:3" id="5041098170606072097">
+            <property name="name:3" value="response" />
+            <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5041098170606072131">
+              <link role="classifier:3" targetNodeId="7.~ClientResponse" resolveInfo="ClientResponse" />
+            </node>
+            <node role="initializer:3" type="jetbrains.mps.baseLanguage.structure.ParameterReference:3" id="5041098170606072130">
+              <link role="variableDeclaration:3" targetNodeId="5041098170606072127" resolveInfo="dummy" />
+            </node>
+          </node>
+        </node>
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5041098170606072100">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StaticMethodCall:3" id="5041098170606072537">
+            <link role="baseMethodDeclaration:3" targetNodeId="6.~Assert.assertEquals(java.lang.Object,java.lang.Object):void" resolveInfo="assertEquals" />
+            <link role="classConcept:3" targetNodeId="6.~Assert" resolveInfo="Assert" />
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="5041098170606072538">
+              <property name="value:3" value="value" />
+              <node role="smodelAttribute:3" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="5041098170606072539">
+                <property name="propertyName:2" value="value" />
+                <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="5041098170606072540">
+                  <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5041098170606072541">
+                    <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="5041098170606072542">
+                      <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="5041098170606072543">
+                        <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="5041098170606072544" />
+                        <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="5041098170606083486">
+                          <link role="property:16" targetNodeId="1.5041098170606083485:0" resolveInfo="value" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2904205143210584216">
+              <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2904205143210584217">
+                <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="2904205143210584218">
+                  <link role="baseMethodDeclaration:3" targetNodeId="7.~ClientResponse.getEntity(java.lang.Class):java.lang.Object" resolveInfo="getEntity" />
+                  <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.ClassifierClassExpression:3" id="2904205143210584219">
+                    <link role="classifier:3" targetNodeId="16.~JSONObject" resolveInfo="JSONObject" />
+                  </node>
+                </node>
+                <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.LocalVariableReference:3" id="2904205143210584220">
+                  <link role="variableDeclaration:3" targetNodeId="5041098170606072097" resolveInfo="response" />
+                  <node role="smodelAttribute:3" type="jetbrains.mps.lang.generator.structure.ReferenceMacro:2" id="2904205143210584221">
+                    <property name="linkRole:2" value="variableDeclaration" />
+                    <node role="referentFunction:2" type="jetbrains.mps.lang.generator.structure.ReferenceMacro_GetReferent:2" id="2904205143210584222">
+                      <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2904205143210584223">
+                        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="2904205143210584224">
+                          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2904205143210584225">
+                            <node role="operand:3" type="jetbrains.mps.lang.generator.generationContext.structure.TemplateFunctionParameter_generationContext:0" id="2904205143210584226" />
+                            <node role="operation:3" type="jetbrains.mps.lang.generator.generationContext.structure.GenerationContextOp_GetOutputByLabelAndInput:0" id="2904205143210584227">
+                              <link role="label:0" targetNodeId="1065715007254848685" resolveInfo="ClientResponseDeclaration" />
+                              <node role="inputNode:0" type="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression:16" id="2904205143210584228">
+                                <link role="concept:16" targetNodeId="1.1667099485251985416:0" resolveInfo="TestCase" />
+                                <node role="leftExpression:16" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2904205143210584229">
+                                  <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="2904205143210584230" />
+                                  <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation:16" id="2904205143210584231" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node role="operation:3" type="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation:3" id="2904205143210584232">
+                <link role="baseMethodDeclaration:3" targetNodeId="16.~JSONObject.get(java.lang.String):java.lang.Object" resolveInfo="get" />
+                <node role="actualArgument:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="2904205143210584233">
+                  <property name="value:3" value="key" />
+                  <node role="smodelAttribute:3" type="jetbrains.mps.lang.generator.structure.PropertyMacro:2" id="2904205143210584234">
+                    <property name="propertyName:2" value="value" />
+                    <node role="propertyValueFunction:2" type="jetbrains.mps.lang.generator.structure.PropertyMacro_GetPropertyValue:2" id="2904205143210584235">
+                      <node role="body:2" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="2904205143210584236">
+                        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="2904205143210584237">
+                          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="2904205143210584238">
+                            <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SPropertyAccess:16" id="2904205143210584239">
+                              <link role="property:16" targetNodeId="1.5041098170606071431:0" resolveInfo="key" />
+                            </node>
+                            <node role="operand:3" type="jetbrains.mps.lang.generator.structure.TemplateFunctionParameter_sourceNode:2" id="2904205143210584240" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="smodelAttribute:3" type="jetbrains.mps.lang.generator.structure.TemplateFragment:2" id="5041098170606072125" />
+        </node>
+      </node>
+      <node role="visibility:3" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="5041098170606072126" />
+      <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="5041098170606072127">
+        <property name="name:3" value="dummy" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="5041098170606072129">
+          <link role="classifier:3" targetNodeId="7.~ClientResponse" resolveInfo="ClientResponse" />
+        </node>
+      </node>
+      <node role="parameter:3" type="jetbrains.mps.baseLanguage.structure.ParameterDeclaration:3" id="2904205143210549429">
+        <property name="name:3" value="jsonObject" />
+        <node role="type:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2904205143210549431">
+          <link role="classifier:3" targetNodeId="16.~JSONObject" resolveInfo="JSONObject" />
+        </node>
+      </node>
+      <node role="throwsItem:3" type="jetbrains.mps.baseLanguage.structure.ClassifierType:3" id="2904205143210464112">
+        <link role="classifier:3" targetNodeId="16.~JSONException" resolveInfo="JSONException" />
       </node>
     </node>
   </node>

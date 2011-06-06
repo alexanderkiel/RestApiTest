@@ -152,5 +152,21 @@
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="7825846011344695293" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="5041098170606071435">
+    <link role="conceptDeclaration:32" targetNodeId="1.5041098170606071420:0" resolveInfo="JsonArrayAssert" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Collection:32" id="5041098170606071437">
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="5041098170606071440">
+        <property name="text:32" value="assert json" />
+      </node>
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="5041098170606095575">
+        <link role="relationDeclaration:32" targetNodeId="1.5041098170606083485:0" resolveInfo="value" />
+        <link role="styleClass:32" targetNodeId="3v.1186415563770" resolveInfo="StringLiteral" />
+      </node>
+      <node role="childCellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Property:32" id="5041098170606071444">
+        <link role="relationDeclaration:32" targetNodeId="1.5041098170606071431:0" resolveInfo="key" />
+      </node>
+      <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="5041098170606071439" />
+    </node>
+  </node>
 </model>
 

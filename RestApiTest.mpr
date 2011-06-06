@@ -11,6 +11,7 @@
       <modulePath path="${project}/solutions/net.alexanderkiel.rat.sandbox/sandbox.msd" folder="" />
       <modulePath path="${project}/languages/Sql/Sql.mpl" folder="" />
       <modulePath path="${project}/solutions/net.alexanderkiel.junit/junit.msd" folder="" />
+      <modulePath path="${project}/languages/XPath/XPath.mpl" folder="" />
     </projectModules>
     <genConfs />
   </component>

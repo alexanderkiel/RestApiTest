@@ -102,5 +102,24 @@
       <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType:3" id="6611324116667939656" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.behavior.structure.ConceptBehavior" id="5041098170606071421">
+    <link role="concept" targetNodeId="1.5041098170606071420:0" resolveInfo="JsonArrayAssert" />
+    <node role="constructor" type="jetbrains.mps.lang.behavior.structure.ConceptConstructorDeclaration" id="5041098170606071422">
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5041098170606071423" />
+    </node>
+    <node role="method" type="jetbrains.mps.lang.behavior.structure.ConceptMethodDeclaration" id="5041098170606071424">
+      <property name="name" value="needsDatabaseRule" />
+      <property name="isVirtual" value="false" />
+      <property name="isAbstract" value="false" />
+      <link role="overriddenMethod" targetNodeId="8307750758729928794" resolveInfo="needsDatabaseRule" />
+      <node role="visibility" type="jetbrains.mps.baseLanguage.structure.PublicVisibility:3" id="5041098170606071425" />
+      <node role="body" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="5041098170606071426">
+        <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ReturnStatement:3" id="5041098170606071428">
+          <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.BooleanConstant:3" id="5041098170606071429" />
+        </node>
+      </node>
+      <node role="returnType" type="jetbrains.mps.baseLanguage.structure.BooleanType:3" id="5041098170606071427" />
+    </node>
+  </node>
 </model>
 
