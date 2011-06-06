@@ -177,6 +177,41 @@
             </node>
           </node>
         </node>
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="690211415498373215">
+          <property name="expectedValue:0" value="alexanderkiel" />
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="690211415498373216">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="690211415498373217">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="690211415498373219">
+                <property name="value" value="assignee" />
+              </node>
+            </node>
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="690211415498373220">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="690211415498373222">
+                <property name="value" value="login" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="690211415498373408">
+          <property name="expectedValue:0" value="0" />
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="690211415498373409">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="690211415498373410">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="690211415498373412">
+                <property name="value" value="comments" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="690211415498373611">
+          <property name="expectedValue:0" value="2011-06-05T17:13:29Z" />
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="690211415498373612">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="690211415498373613">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="690211415498373616">
+                <property name="value" value="created_at" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="541635531611632734">
         <property name="value:3" value="alexanderkiel" />
