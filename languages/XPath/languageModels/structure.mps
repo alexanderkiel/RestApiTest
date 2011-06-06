@@ -202,6 +202,10 @@
       <property name="role:0" value="relativePathExpr" />
       <link role="target:0" targetNodeId="6670678901859976841" resolveInfo="RelativePathExpr" />
     </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6670678901860288545">
+      <property name="value:0" value="/" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6670678901859976841">
     <property name="name:0" value="RelativePathExpr" />
@@ -234,9 +238,6 @@
       <property name="role:0" value="forwardStep" />
       <property name="sourceCardinality:0" value="1" />
       <link role="target:0" targetNodeId="6670678901860189227" resolveInfo="ForwardStep" />
-    </node>
-    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="6670678901860189226">
-      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6670678901860189227">
@@ -276,6 +277,10 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6670678901860203460">
     <property name="name:0" value="QName" />
     <link role="extends:0" targetNodeId="6670678901860203457" resolveInfo="NameTest" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6670678901860286788">
+      <property name="value:0" value="QName" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6670678901860203461">
       <property name="name:0" value="value" />
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />

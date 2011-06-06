@@ -9,6 +9,7 @@
   <languageAspect modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(net.alexanderkiel.rat.Http.structure)" version="-1" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:8a1085ea-c696-49b5-81a3-bbe61c2fbd1e(net.alexanderkiel.Sql.structure)" version="-1" />
+  <languageAspect modelUID="r:c01bdafd-08cd-461f-ab88-4ed398f6d9e2(net.alexanderkiel.XPath.structure)" version="-1" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <maxImportIndex value="1" />
   <import index="1" modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="0" />
@@ -133,16 +134,29 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5041098170606071420">
     <property name="name:0" value="JsonAssert" />
     <link role="extends:0" targetNodeId="736961497060893220:0" resolveInfo="Assert" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6670678901860273182">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="xPathAssert" />
+      <property name="sourceCardinality:0" value="1..n" />
+      <link role="target:0" targetNodeId="6670678901860273169:0" resolveInfo="XPathAssert" />
+    </node>
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="5041098170606071434">
       <property name="value:0" value="assert json" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5041098170606071431">
-      <property name="name:0" value="key" />
-      <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+  </node>
+  <visible index="6" modelUID="r:c01bdafd-08cd-461f-ab88-4ed398f6d9e2(net.alexanderkiel.XPath.structure)" />
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6670678901860273169">
+    <property name="name:0" value="XPathAssert" />
+    <link role="extends:0" targetNodeId="2v.1133920641626:0" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6670678901860273171">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="pathExpr" />
+      <property name="sourceCardinality:0" value="1" />
+      <link role="target:0" targetNodeId="6v.2904205143210640464" resolveInfo="PathExpr" />
     </node>
-    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="5041098170606083485">
-      <property name="name:0" value="value" />
+    <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6670678901860273170">
+      <property name="name:0" value="expectedValue" />
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
     </node>
   </node>

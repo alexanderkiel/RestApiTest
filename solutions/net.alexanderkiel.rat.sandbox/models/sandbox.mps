@@ -6,11 +6,13 @@
   <language namespace="0a56bcc8-b618-43e1-82b3-7b02708aaf9b(net.alexanderkiel.rat.Http)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
   <language namespace="d936bb79-6888-4ef0-a37c-e8f2b85743f8(net.alexanderkiel.Sql)" />
+  <language namespace="68ebf24c-3b3e-459f-8f4a-fc20fde65ce0(net.alexanderkiel.XPath)" />
   <languageAspect modelUID="r:31cb6d4f-c705-4a90-a021-416a267ef7ef(net.alexanderkiel.rat.Http.structure)" version="-1" />
   <languageAspect modelUID="r:d1aca038-dc84-4fc9-b6db-b7b512b7f71b(net.alexanderkiel.rat.JratDsl.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" />
   <languageAspect modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="3" />
   <languageAspect modelUID="r:8a1085ea-c696-49b5-81a3-bbe61c2fbd1e(net.alexanderkiel.Sql.structure)" version="-1" />
+  <languageAspect modelUID="r:c01bdafd-08cd-461f-ab88-4ed398f6d9e2(net.alexanderkiel.XPath.structure)" version="-1" />
   <maxImportIndex value="1" />
   <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest:0" id="1844326167509574174">
     <property name="uriTemplate:0" value="/materials/{id}" />
@@ -153,9 +155,23 @@
       <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert:0" id="5041098170606066895">
         <node role="status:0" type="net.alexanderkiel.rat.Http.structure.OK" id="5041098170606066898" />
       </node>
-      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.JsonAssert:0" id="5041098170606107897">
-        <property name="value:0" value="Feature" />
-        <property name="key:0" value="name" />
+      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.JsonAssert:0" id="6670678901860319164">
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="6670678901860319165">
+          <property name="expectedValue:0" value="Feature" />
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="6670678901860319166">
+            <node role="relativePathExpr" type="net.alexanderkiel.XPath.structure.RelativePathExpr" id="6670678901860319777">
+              <node role="leftSide" type="net.alexanderkiel.XPath.structure.AxisStep" id="6670678901860319779">
+                <node role="forwardStep" type="net.alexanderkiel.XPath.structure.ForwardStep" id="6670678901860319780">
+                  <node role="abbrevForwardStep" type="net.alexanderkiel.XPath.structure.AbbrevForwardStep" id="6670678901860319781">
+                    <node role="nodeTest" type="net.alexanderkiel.XPath.structure.QName" id="6670678901860319783">
+                      <property name="value" value="name" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>
