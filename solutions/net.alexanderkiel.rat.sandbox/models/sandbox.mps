@@ -157,6 +157,26 @@
             </node>
           </node>
         </node>
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="690211415498299314">
+          <property name="expectedValue:0" value="Feature" />
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="690211415498299315">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="690211415498299316">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="690211415498299318">
+                <property name="value" value="labels" />
+              </node>
+              <node role="predicate" type="net.alexanderkiel.XPath.structure.Predicate" id="690211415498359925">
+                <node role="expr" type="net.alexanderkiel.XPath.structure.Expr" id="690211415498366003">
+                  <property name="value" value="0" />
+                </node>
+              </node>
+            </node>
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="690211415498371190">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="690211415498371192">
+                <property name="value" value="name" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="541635531611632734">
         <property name="value:3" value="alexanderkiel" />
