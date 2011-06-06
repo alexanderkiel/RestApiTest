@@ -6,6 +6,7 @@
   </models>
   <usedLanguages>
     <usedLanguage>4813a04b-7ddf-4519-acdf-a7976f554e8b(net.alexanderkiel.rat.JratDsl)</usedLanguage>
+    <usedLanguage>f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)</usedLanguage>
   </usedLanguages>
 </solution>
 

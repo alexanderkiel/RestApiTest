@@ -8,6 +8,12 @@
     <stubModelEntry path="/home/akiel/coding/RestApiTest/lib/commons-dbcp-1.4.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>
+    <stubModelEntry path="/home/akiel/coding/RestApiTest/lib/jersey-json-1.5.jar">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
+    <stubModelEntry path="/home/akiel/coding/RestApiTest/lib/jettison-1.1.jar">
+      <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
+    </stubModelEntry>
     <stubModelEntry path="/home/akiel/coding/RestApiTest/lib/junit-4.8.2.jar">
       <manager moduleId="f3061a53-9226-4cc5-a443-f952ceaf5816" className="jetbrains.mps.baseLanguage.stubs.JavaStubs" />
     </stubModelEntry>

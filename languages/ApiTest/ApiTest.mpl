@@ -51,6 +51,7 @@
   </usedDevKits>
   <extendedLanguages>
     <extendedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</extendedLanguage>
+    <extendedLanguage>fd392034-7849-419d-9071-12563d152375(jetbrains.mps.baseLanguage.closures)</extendedLanguage>
     <extendedLanguage>d936bb79-6888-4ef0-a37c-e8f2b85743f8(net.alexanderkiel.Sql)</extendedLanguage>
     <extendedLanguage>68ebf24c-3b3e-459f-8f4a-fc20fde65ce0(net.alexanderkiel.XPath)</extendedLanguage>
     <extendedLanguage>0a56bcc8-b618-43e1-82b3-7b02708aaf9b(net.alexanderkiel.rat.Http)</extendedLanguage>

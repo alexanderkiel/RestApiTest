@@ -14,7 +14,7 @@
   <languageAspect modelUID="r:c01bdafd-08cd-461f-ab88-4ed398f6d9e2(net.alexanderkiel.XPath.structure)" version="-1" />
   <maxImportIndex value="1" />
   <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest:0" id="983088790783742377">
-    <property name="name:0" value="GitHubLabels" />
+    <property name="name:0" value="Labels" />
     <property name="uriTemplate:0" value="/repos/{user}/{repo}/labels" />
     <property name="baseUri:0" value="https://api.github.com" />
     <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="983088790783742378">
@@ -63,7 +63,7 @@
   </node>
   <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest:0" id="5041098170606066887">
     <property name="baseUri:0" value="https://api.github.com" />
-    <property name="name:0" value="GitHubLabel" />
+    <property name="name:0" value="Label" />
     <property name="uriTemplate:0" value="/repos/{user}/{repo}/labels/{id}" />
     <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="5041098170606066888">
       <property name="name:0" value="GetLabel" />
@@ -85,7 +85,7 @@
           <property name="expectedValue:0" value="Feature" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="4196148438192407232">
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="4196148438192407233">
-              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.QName" id="4196148438192407235">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="4196148438192407235">
                 <property name="value" value="name" />
               </node>
             </node>
@@ -95,12 +95,77 @@
           <property name="expectedValue:0" value="02e10c" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="4196148438192334984">
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="4196148438192407237">
-              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.QName" id="4196148438192407239">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="4196148438192407239">
                 <property name="value" value="color" />
               </node>
             </node>
           </node>
         </node>
+      </node>
+    </node>
+  </node>
+  <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest:0" id="541635531611632728">
+    <property name="name:0" value="Issue" />
+    <property name="baseUri:0" value="https://api.github.com" />
+    <property name="uriTemplate:0" value="/repos/{user}/{repo}/issues/{id}" />
+    <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="541635531611632729">
+      <property name="name:0" value="GetIssue" />
+      <node role="method:0" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="541635531611632733" />
+      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.JsonAssert:0" id="541635531611632736">
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="541635531611632737">
+          <property name="expectedValue:0" value="1" />
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="541635531611632738">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="541635531611632739">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="541635531611632741">
+                <property name="value" value="number" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="1032467828268474609">
+          <property name="expectedValue:0" value="open" />
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="1683082655085306756">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="1683082655085306757">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="1683082655085306759">
+                <property name="value" value="state" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="1683082655085306760">
+          <property name="expectedValue:0" value="Write Sandbox which tests the GitHub API" />
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="1683082655085306761">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="1683082655085306762">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="1683082655085306764">
+                <property name="value" value="title" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="1683082655085405033">
+          <property name="expectedValue:0" value="alexanderkiel" />
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="1683082655085405034">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="1683082655085405035">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="1683082655085405037">
+                <property name="value" value="user" />
+              </node>
+            </node>
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="1683082655085405155">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="1683082655085405157">
+                <property name="value" value="login" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="541635531611632734">
+        <property name="value:3" value="alexanderkiel" />
+      </node>
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="541635531611632735">
+        <property name="value:3" value="RestApiTest" />
+      </node>
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1683082655085402637">
+        <property name="value:3" value="1" />
       </node>
     </node>
   </node>

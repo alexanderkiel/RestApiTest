@@ -226,10 +226,10 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="6670678901860203460">
-    <property name="name:0" value="QName" />
+    <property name="name:0" value="NCName" />
     <link role="extends:0" targetNodeId="4196148438192408586" resolveInfo="NameTest" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="6670678901860286788">
-      <property name="value:0" value="QName" />
+      <property name="value:0" value="NCName" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6670678901860203461">
@@ -247,6 +247,10 @@
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="4196148438192410235">
     <property name="name:0" value="AllNodes" />
     <link role="extends:0" targetNodeId="6670678901860189238" resolveInfo="NodeTest" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="1683082655085405159">
+      <property name="value:0" value="*" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
   </node>
 </model>
 

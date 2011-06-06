@@ -249,12 +249,7 @@
     <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_RefNodeList:32" id="2315014941105873034">
       <property name="separatorText:32" value="/" />
       <link role="relationDeclaration:32" targetNodeId="1.6670678901859976843" />
-      <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="2315014941105873035" />
-      <node role="separatorStyle:32" type="jetbrains.mps.lang.editor.structure.InlineStyleDeclaration:32" id="4196148438192406703">
-        <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.PunctuationRightStyleClassItem:32" id="4196148438192406704">
-          <property name="flag:32" value="true" />
-        </node>
-      </node>
+      <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Indent:32" id="541635531611749896" />
     </node>
   </node>
   <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="6670678901860203462">
