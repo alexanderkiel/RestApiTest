@@ -94,5 +94,12 @@
       <node role="cellLayout:32" type="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal:32" id="690211415498299325" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration:32" id="7989151587928728350">
+    <link role="conceptDeclaration:32" targetNodeId="1.7989151587928728347" resolveInfo="Root" />
+    <node role="cellModel:32" type="jetbrains.mps.lang.editor.structure.CellModel_Constant:32" id="7989151587928728352">
+      <property name="text:32" value="$" />
+      <node role="styleItem:32" type="jetbrains.mps.lang.editor.structure.FontStyleStyleClassItem:32" id="7989151587928901008" />
+    </node>
+  </node>
 </model>
 

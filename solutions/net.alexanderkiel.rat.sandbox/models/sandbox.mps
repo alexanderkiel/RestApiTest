@@ -80,10 +80,13 @@
       <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert:0" id="5041098170606066895">
         <node role="status:0" type="net.alexanderkiel.rat.Http.structure.OK" id="5041098170606066898" />
       </node>
-      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.JsonAssert:0" id="6670678901860319164">
+      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.JsonObjectAssert:0" id="6670678901860319164">
         <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="4196148438192407231">
           <property name="expectedValue:0" value="Feature" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="4196148438192407232">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587928902262">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.Root" id="7989151587928902264" />
+            </node>
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="4196148438192407233">
               <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="4196148438192407235">
                 <property name="value" value="name" />
@@ -94,6 +97,9 @@
         <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="6670678901860319165">
           <property name="expectedValue:0" value="02e10c" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="4196148438192334984">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587928902265">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.Root" id="7989151587928902267" />
+            </node>
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="4196148438192407237">
               <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="4196148438192407239">
                 <property name="value" value="color" />
@@ -111,10 +117,13 @@
     <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="541635531611632729">
       <property name="name:0" value="GetIssue" />
       <node role="method:0" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="541635531611632733" />
-      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.JsonAssert:0" id="541635531611632736">
+      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.JsonObjectAssert:0" id="541635531611632736">
         <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="541635531611632737">
           <property name="expectedValue:0" value="1" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="541635531611632738">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587928903258">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.Root" id="7989151587928903260" />
+            </node>
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="541635531611632739">
               <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="541635531611632741">
                 <property name="value" value="number" />
@@ -125,6 +134,9 @@
         <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="1032467828268474609">
           <property name="expectedValue:0" value="open" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="1683082655085306756">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587928903261">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.Root" id="7989151587928903263" />
+            </node>
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="1683082655085306757">
               <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="1683082655085306759">
                 <property name="value" value="state" />
@@ -135,6 +147,9 @@
         <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="1683082655085306760">
           <property name="expectedValue:0" value="Write Sandbox which tests the GitHub API" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="1683082655085306761">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587928903264">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.Root" id="7989151587928903266" />
+            </node>
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="1683082655085306762">
               <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="1683082655085306764">
                 <property name="value" value="title" />
@@ -145,6 +160,9 @@
         <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="1683082655085405033">
           <property name="expectedValue:0" value="alexanderkiel" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="1683082655085405034">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587928902250">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.Root" id="7989151587928902252" />
+            </node>
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="1683082655085405035">
               <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="1683082655085405037">
                 <property name="value" value="user" />
@@ -160,6 +178,9 @@
         <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="690211415498299314">
           <property name="expectedValue:0" value="Feature" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="690211415498299315">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587928902253">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.Root" id="7989151587928902255" />
+            </node>
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="690211415498299316">
               <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="690211415498299318">
                 <property name="value" value="labels" />
@@ -180,6 +201,9 @@
         <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="690211415498373215">
           <property name="expectedValue:0" value="alexanderkiel" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="690211415498373216">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587928902256">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.Root" id="7989151587928902258" />
+            </node>
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="690211415498373217">
               <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="690211415498373219">
                 <property name="value" value="assignee" />
@@ -193,8 +217,11 @@
           </node>
         </node>
         <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="690211415498373408">
-          <property name="expectedValue:0" value="0" />
+          <property name="expectedValue:0" value="1" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="690211415498373409">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587929024542">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.Root" id="7989151587929024544" />
+            </node>
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="690211415498373410">
               <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="690211415498373412">
                 <property name="value" value="comments" />
@@ -205,6 +232,9 @@
         <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="690211415498373611">
           <property name="expectedValue:0" value="2011-06-05T17:13:29Z" />
           <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="690211415498373612">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587928902259">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.Root" id="7989151587928902261" />
+            </node>
             <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="690211415498373613">
               <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="690211415498373616">
                 <property name="value" value="created_at" />
@@ -221,6 +251,47 @@
       </node>
       <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1683082655085402637">
         <property name="value:3" value="1" />
+      </node>
+    </node>
+  </node>
+  <node type="net.alexanderkiel.rat.JratDsl.structure.ResourceTest:0" id="7989151587928728322">
+    <property name="name:0" value="Comments" />
+    <property name="uriTemplate:0" value="/repos/{user}/{repo}/issues/{id}/comments" />
+    <property name="baseUri:0" value="https://api.github.com" />
+    <node role="testCase:0" type="net.alexanderkiel.rat.JratDsl.structure.TestCase:0" id="7989151587928728323">
+      <property name="name:0" value="GetComments" />
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="7989151587928728327">
+        <property name="value:3" value="alexanderkiel" />
+      </node>
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="7989151587928728328">
+        <property name="value:3" value="RestApiTest" />
+      </node>
+      <node role="params:0" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="7989151587928728329">
+        <property name="value:3" value="1" />
+      </node>
+      <node role="method:0" type="net.alexanderkiel.rat.Http.structure.GetMethod" id="7989151587928728326" />
+      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.ResponseStatusAssert:0" id="7989151587928728331">
+        <node role="status:0" type="net.alexanderkiel.rat.Http.structure.OK" id="7989151587928728333" />
+      </node>
+      <node role="assert:0" type="net.alexanderkiel.rat.JratDsl.structure.JsonArrayAssert:0" id="7989151587928988469">
+        <node role="xPathAssert:0" type="net.alexanderkiel.rat.JratDsl.structure.XPathAssert:0" id="7989151587928988474">
+          <property name="expectedValue:0" value="2011-06-07T15:06:12Z" />
+          <node role="pathExpr:0" type="net.alexanderkiel.XPath.structure.PathExpr" id="7989151587928988475">
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587928988476">
+              <node role="predicate" type="net.alexanderkiel.XPath.structure.Predicate" id="7989151587928988477">
+                <node role="expr" type="net.alexanderkiel.XPath.structure.Expr" id="7989151587928988478">
+                  <property name="value" value="0" />
+                </node>
+              </node>
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.Root" id="7989151587928988479" />
+            </node>
+            <node role="step" type="net.alexanderkiel.XPath.structure.Step" id="7989151587928988480">
+              <node role="nodeTest" type="net.alexanderkiel.XPath.structure.NCName" id="7989151587928988481">
+                <property name="value" value="created_at" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
     </node>
   </node>

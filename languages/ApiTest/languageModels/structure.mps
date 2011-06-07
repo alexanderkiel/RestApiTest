@@ -132,16 +132,10 @@
     </node>
   </node>
   <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="5041098170606071420">
-    <property name="name:0" value="JsonAssert" />
-    <link role="extends:0" targetNodeId="736961497060893220:0" resolveInfo="Assert" />
-    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="6670678901860273182">
-      <property name="metaClass:0" value="aggregation" />
-      <property name="role:0" value="xPathAssert" />
-      <property name="sourceCardinality:0" value="1..n" />
-      <link role="target:0" targetNodeId="6670678901860273169:0" resolveInfo="XPathAssert" />
-    </node>
+    <property name="name:0" value="JsonObjectAssert" />
+    <link role="extends:0" targetNodeId="7989151587928930455:0" resolveInfo="JsonAssert" />
     <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="5041098170606071434">
-      <property name="value:0" value="assert json" />
+      <property name="value:0" value="assert json object" />
       <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
     </node>
   </node>
@@ -158,6 +152,27 @@
     <node role="propertyDeclaration:0" type="jetbrains.mps.lang.structure.structure.PropertyDeclaration:0" id="6670678901860273170">
       <property name="name:0" value="expectedValue" />
       <link role="dataType:0" targetNodeId="2v.1082983041843:0" resolveInfo="string" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7989151587928924893">
+    <property name="name:0" value="JsonArrayAssert" />
+    <link role="extends:0" targetNodeId="7989151587928930455:0" resolveInfo="JsonAssert" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7989151587928987041">
+      <property name="value:0" value="assert json array" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7989151587928930455">
+    <property name="name:0" value="JsonAssert" />
+    <link role="extends:0" targetNodeId="736961497060893220:0" resolveInfo="Assert" />
+    <node role="linkDeclaration:0" type="jetbrains.mps.lang.structure.structure.LinkDeclaration:0" id="7989151587928930457">
+      <property name="metaClass:0" value="aggregation" />
+      <property name="role:0" value="xPathAssert" />
+      <property name="sourceCardinality:0" value="1..n" />
+      <link role="target:0" targetNodeId="6670678901860273169:0" resolveInfo="XPathAssert" />
+    </node>
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.BooleanConceptProperty:0" id="7989151587928930456">
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473854053:0" resolveInfo="abstract" />
     </node>
   </node>
 </model>

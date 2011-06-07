@@ -14,12 +14,12 @@
   <node type="jetbrains.mps.lang.intentions.structure.IntentionDeclaration:8" id="1032467828268463679">
     <property name="name:8" value="AddXPathAssert" />
     <property name="isAvailableInChildNodes:8" value="true" />
-    <link role="forConcept:8" targetNodeId="1.5041098170606071420:0" resolveInfo="JsonAssert" />
+    <link role="forConcept:8" targetNodeId="1.7989151587928930455:0" resolveInfo="JsonAssert" />
     <node role="descriptionFunction:8" type="jetbrains.mps.lang.intentions.structure.DescriptionBlock:8" id="1032467828268463680">
       <node role="body:8" type="jetbrains.mps.baseLanguage.structure.StatementList:3" id="1032467828268463681">
         <node role="statement:3" type="jetbrains.mps.baseLanguage.structure.ExpressionStatement:3" id="1032467828268472835">
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.StringLiteral:3" id="1032467828268472836">
-            <property name="value:3" value="Add XPath assert" />
+            <property name="value:3" value="Add XPath Assert" />
           </node>
         </node>
       </node>
@@ -30,8 +30,8 @@
           <node role="expression:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1032467828268472844">
             <node role="operand:3" type="jetbrains.mps.baseLanguage.structure.DotExpression:3" id="1032467828268472839">
               <node role="operand:3" type="jetbrains.mps.lang.intentions.structure.ConceptFunctionParameter_node:8" id="1032467828268472838" />
-              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="1032467828268472843">
-                <link role="link:16" targetNodeId="1.6670678901860273182:0" />
+              <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.SLinkListAccess:16" id="7989151587928964420">
+                <link role="link:16" targetNodeId="1.7989151587928930457:0" />
               </node>
             </node>
             <node role="operation:3" type="jetbrains.mps.lang.smodel.structure.LinkList_AddNewChildOperation:16" id="1032467828268472848" />

@@ -91,5 +91,13 @@
       <link role="target:0" targetNodeId="2904205143210623533" resolveInfo="Expr" />
     </node>
   </node>
+  <node type="jetbrains.mps.lang.structure.structure.ConceptDeclaration:0" id="7989151587928728347">
+    <property name="name:0" value="Root" />
+    <link role="extends:0" targetNodeId="6670678901860189238" resolveInfo="NodeTest" />
+    <node role="conceptProperty:0" type="jetbrains.mps.lang.structure.structure.StringConceptProperty:0" id="7989151587928728349">
+      <property name="value:0" value="$" />
+      <link role="conceptPropertyDeclaration:0" targetNodeId="2v.1137473891462:0" resolveInfo="alias" />
+    </node>
+  </node>
 </model>
 
